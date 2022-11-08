@@ -2398,6 +2398,12 @@ input, select, textarea {
 		margin-top: 6em;
 	}
 
+/*Custom style*/
+.slideSize {
+	width: 30% !important;
+	margin: auto;
+}
+
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
