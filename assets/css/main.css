@@ -2404,18 +2404,17 @@ input, select, textarea {
 	margin: auto;
 }
 
-.gallery h2,
-.gallery span {
+.gallery h2 {
 	color: black;
 	text-shadow: none;
 	font-size: 2em;
 	margin: 20px 0;
 	text-transform: uppercase;
-	border: 1px solid black;
+	text-align: center;
 }
 
 
-.container {
+.gallery .container {
 	overflow: auto;
 }
 
@@ -2430,11 +2429,11 @@ input, select, textarea {
 }
 
 .paddingRight{
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .paddingLeft{
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .small {
@@ -2474,7 +2473,7 @@ input, select, textarea {
 	background-size: cover;
 }
 .tr {
-	background: url("../../images/hair4.jpeg");
+	background: url("../../images/hair9.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
