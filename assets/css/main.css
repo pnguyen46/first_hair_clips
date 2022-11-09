@@ -2398,92 +2398,96 @@ input, select, textarea {
 		margin-top: 6em;
 	}
 
-/*Custom style*/
-.slideSize {
-	width: 30% !important;
-	margin: auto;
-}
+	/*Custom style*/
+	.slideSize {
+		width: 30% !important;
+		margin: auto;
+	}
 
-.gallery h2 {
-	color: black;
-	text-shadow: none;
-	font-size: 2em;
-	margin: 20px 0;
-	text-transform: uppercase;
-	text-align: center;
-}
+	.gallery h2 {
+		color: black;
+		text-shadow: none;
+		font-size: 2em;
+		margin: 20px 0;
+		text-transform: uppercase;
+		text-align: center;
+	}
 
 
-.gallery .container {
-	overflow: auto;
-}
+	.gallery > .container {
+		overflow: auto;
+	}
 
-.column > section {
-	margin-top: 10px;
-	margin-bottom: 0;
-}
+	.column > section {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
 
-.column {
-	width: 32.3333%;
-	float: left;
-}
+	.column {
+		width: 32.3333%;
+		float: left;
+	}
 
-.paddingRight{
-	margin-right: 15px;
-}
+	.paddingRight{
+		margin-right: 15px;
+	}
 
-.paddingLeft{
-	margin-left: 15px;
-}
+	.paddingLeft{
+		margin-left: 15px;
+	}
 
-.small {
-	width: 100%;
-	height: 25vw;
-	/* border: 2px solid black; */
-}
+	.small {
+		width: 100%;
+		height: 25vw;
+		/* border: 2px solid black; */
+	}
 
-.med {
-	width: 100%;
-	height: 40vw;
-	/* border: 2px solid blue; */
-}
+	.med {
+		width: 100%;
+		height: 40vw;
+		/* border: 2px solid blue; */
+	}
 
-.tl {
-	background: url("../../images/hair6.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	.tl {
+		background: url("../../images/hair6.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-.bl {
-	background: url("../../images/hair_1.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50%;
-}
+	.bl {
+		background: url("../../images/hair_1.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
 
-.tc {
-	background: url("../../images/hair2.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 20%;
-}
-.bc {
-	background: url("../../images/hair7.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.tr {
-	background: url("../../images/hair9.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50%;
-}
-.br {
-	background: url("../../images/hair5.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 20%;
-}
+	.tc {
+		background: url("../../images/hair2.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 20%;
+	}
+	.bc {
+		background: url("../../images/hair7.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.tr {
+		background: url("../../images/hair9.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+	.br {
+		background: url("../../images/hair5.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 20%;
+	}
+	.frame > iframe{
+		width: 600px;
+		height: 450px;
+	}
 
 /* Normal */
 
@@ -2497,7 +2501,7 @@ input, select, textarea {
 			}
 
 			span.extra {
-				display: none;
+				display: inline;
 			}
 
 		/* Wrappers */
@@ -2521,7 +2525,7 @@ input, select, textarea {
 			#footer-wrapper {
 				padding: 5em 0 5em 0;
 			}
-
+			
 	}
 
 /* Narrow */
@@ -2626,6 +2630,27 @@ input, select, textarea {
 				margin-top: 3em;
 			}
 
+		/*Custom style*/
+		.column {
+			width: 32.3333%;
+		}
+		
+		.paddingRight{
+			margin-right: 13px;
+		}
+		
+		.paddingLeft{
+			margin-left: 13px;
+		}
+
+		.frame > iframe {
+			width: 45vw;
+			height: 60vh;
+		}
+
+		.row > * {
+			padding-left: 10px;
+		}
 	}
 
 /* Narrower */
@@ -2736,7 +2761,24 @@ input, select, textarea {
 			#footer header.major {
 				margin-bottom: 1.5em;
 			}
+		
+		/*Custom style*/
+		.column {
+			width: 31.3333%;
+		}
+		
+		.paddingRight{
+			margin-right: 10px;
+		}
+		
+		.paddingLeft{
+			margin-left: 10px;
+		}
 
+		.frame > iframe {
+			width: 650px;
+			height: 450px;
+		}
 	}
 
 /* Mobile */
@@ -3029,6 +3071,11 @@ input, select, textarea {
 				transform: translateY(0);
 			}
 
+			.frame > iframe {
+				width: 95%;
+				height: auto;
+			}
+
 	}
 
 /* Mobile (Portrait) */
@@ -3154,4 +3201,16 @@ input, select, textarea {
 				margin-bottom: 1em;
 			}
 
+		/*Custom styles*/
+		.column {
+			width: 31.3333%;
+		}
+		
+		.paddingRight{
+			margin-right: 5px;
+		}
+		
+		.paddingLeft{
+			margin-left: 5px;
+		}
 	}
