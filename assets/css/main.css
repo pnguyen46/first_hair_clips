@@ -2488,6 +2488,9 @@ input, select, textarea {
 		width: 600px;
 		height: 450px;
 	}
+	.btn-outline-dark:hover{
+		background-color: transparent;
+	}
 
 /* Normal */
 
