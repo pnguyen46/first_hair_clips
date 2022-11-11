@@ -2494,6 +2494,18 @@ input, select, textarea {
 	.btn-outline-dark:hover{
 		background-color: transparent;
 	}
+	.card {
+		background-color: gainsboro;
+		border: 3px solid white;
+	}
+	.servicesBorder {
+		border: 3px solid white;
+		border-radius: 10px;
+	}
+
+	.servicesBorder li {
+		border: none;
+	}
 
 /* Normal */
 
