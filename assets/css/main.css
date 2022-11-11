@@ -2100,7 +2100,6 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
-		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2126,8 +2125,9 @@ input, select, textarea {
 		position: relative;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
-		background-image: url("images/overlay.png"), url("images/footer.svg");
-		background-size: 128px 128px,				100% 100%;
+		background-image: url("images/overlay.png"), url("images/footer.svg"),linear-gradient(270deg, #2e2c2c 15%, #161616 55%);
+		background-size: 128px 128px,154% 100%,auto;
+
 	}
 
 /* Header */
