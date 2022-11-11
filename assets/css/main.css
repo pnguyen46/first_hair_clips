@@ -2065,7 +2065,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		background: #fff;
+		background:#4d4b4b;;
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}
@@ -2096,13 +2096,14 @@ input, select, textarea {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(114deg, #2e2c2c 15%, #161616 55%);
+		background-image: url("images/overlay.png"),  -moz-linear-gradient(178deg, #050505 15%, #4d4b4b 55%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(178deg, #050505 15%, #4d4b4b 55%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(178deg, #050505 15%, #4d4b4b 55%);
+		background-image: url("images/overlay.png"), linear-gradient(178deg, #050505 15%, #4d4b4b 55%);
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
+		border-bottom: 1px solid white;
 	}
 
 	.homepage #header-wrapper {
@@ -2399,16 +2400,14 @@ input, select, textarea {
 	}
 
 	/*Custom style*/
-	.slideSize {
-		width: 30% !important;
-		margin: auto;
+	.gallery{
+		border-top: 1px solid white;
 	}
-
 	.gallery h2 {
 		color: black;
 		text-shadow: none;
 		font-size: 2em;
-		margin: 20px 0;
+		margin: 2em 0 1em 0;
 		text-transform: uppercase;
 		text-align: center;
 	}
@@ -2487,6 +2486,10 @@ input, select, textarea {
 	.frame > iframe{
 		width: 600px;
 		height: 450px;
+	}
+
+	.frameBorder {
+		border: 5px solid white;
 	}
 	.btn-outline-dark:hover{
 		background-color: transparent;
