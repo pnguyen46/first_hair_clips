@@ -2507,6 +2507,29 @@ input, select, textarea {
 		border: none;
 	}
 
+	/*Font*/
+	.pacifico {
+		font-family: 'Pacifico', cursive;
+		font-size: 7em !important;
+	}
+
+	.tino {
+		font-family: 'Tinos', serif;
+	}
+
+	.sofia{
+		font-family: 'Sofia', cursive;
+	}
+	.robotoMon {
+		font-family: 'Roboto Mono', monospace;
+	}
+
+	.lato {
+		font-family: 'Lato', sans-serif;
+	}
+
+
+
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
