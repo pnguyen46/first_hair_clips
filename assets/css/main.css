@@ -2126,6 +2126,10 @@ input, select, textarea {
 		position: relative;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
+		background-image: url("images/footer.svg");
+		background-image: url("images/overlay.png"),url("images/footer.svg"),  -moz-linear-gradient(270deg, #2e2c2c 15%, #161616 55%);
+		background-image: url("images/overlay.png"),url("images/footer.svg"), -webkit-linear-gradient(270deg, #2e2c2c 15%, #161616 55%);
+		background-image: url("images/overlay.png"),url("images/footer.svg"), -ms-linear-gradient(270deg, #2e2c2c 15%, #161616 55%);
 		background-image: url("images/overlay.png"), url("images/footer.svg"),linear-gradient(270deg, #2e2c2c 15%, #161616 55%);
 		background-size: 128px 128px,154% 100%,auto;
 
