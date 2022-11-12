@@ -2832,6 +2832,10 @@ input, select, textarea {
 			width: 650px;
 			height: 450px;
 		}
+
+		.padBot{
+			padding-bottom: .2em;
+		}
 	}
 
 /* Mobile */
@@ -3126,6 +3130,10 @@ input, select, textarea {
 			.frame > iframe {
 				width: 95%;
 				height: auto;
+			}
+
+			.padBot {
+				padding-bottom: .5em;
 			}
 
 	}
